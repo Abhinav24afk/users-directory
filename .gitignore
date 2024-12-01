@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.sw?
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Dependency directories
+.eslintcache
+coverage/
+.vite/
+
+# System files
+Thumbs.db
+Desktop.ini
+*.stackdump
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+*.bak
+*.orig
+
+# Optional runtime
+.env
+.env.local
+.env.*.local
+
+# Testing
+*.coverage
+.cypress/
+
+# Generated files
+*.map
+*.gz
+*.zip
+*.rar
+
+# Others
+.vscode/settings.json
+yarn.lock
+package-lock.json
